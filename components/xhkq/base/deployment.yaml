@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: xhkq
     spec:
       containers:
-      - image: java-quarkus-image:latest
+      - image: quay.io/redhat-appstudio-qe/byoc-tila-tenant/byoc-app-meef/xhkq@sha256:557e63a141fdb9f408a60599d599bf79148ba560aa8ad5cac39159d4c1416ddf
         name: my-java-quarkus
         ports:
         - containerPort: 8081
